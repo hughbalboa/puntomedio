@@ -4,9 +4,10 @@
 
 /*
 M-33.com STYLES 
-
 */
-
+.fullhd{
+	width:100%;
+}
 
 
 
@@ -38,7 +39,7 @@ M-33.com STYLES
 	
 	a
 	{
-		color: #43B3E0;
+		color: #ef3125;
 		text-decoration: underline;
 		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
@@ -357,7 +358,7 @@ M-33.com STYLES
 			text-shadow: -1px -1px 0.5px rgba(0,0,0,0.5);
 			overflow: hidden;
 			box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.5), inset 0px 2px 1px 0px rgba(255,255,255,0.75);
-			background: #43B3E0;
+			background: #ef3125;
 			background-image:	url('images/bg.png'),		-moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
 			background-image:	url('images/bg.png'),		-webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
 			background-image:	url('images/bg.png'),		-o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
@@ -661,17 +662,17 @@ M-33.com STYLES
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-		background-color: #282828;
-		text-align: center;
-		position: fixed;
-		left: 0;
-		top: 0;
-		width: 100%;
-		z-index: 10000;
-		cursor: default;
-	}
+	#nav {
+    background-color: #ef3125;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    padding: 10px 0 3px 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    cursor: default;
+}
 	
 		#nav ul
 		{
@@ -714,8 +715,13 @@ M-33.com STYLES
 /* Articles                                                                      */
 /*********************************************************************************/
 
+.row {
+    padding: 0;
+}
+
 	#top
 	{
+ 
 	}
 
 		#top .image

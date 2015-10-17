@@ -38,7 +38,7 @@
 
 	header
 	{
-		margin: 0 0 3em 0;
+		margin: 0 0 0 0;
 	}
 	
 		header > p
@@ -49,7 +49,7 @@
 
 	footer
 	{
-		margin: 3em 0 0 0;
+		margin: 0em 0 0 0;
 	}
 	
 		footer > p
@@ -133,10 +133,9 @@
 		text-align: center;
 	}
 	
-		.wrapper.first
-		{
-			padding-top: 12em;
-		}
+	.wrapper.first {
+    padding-top: 9em;
+}
 
 /*********************************************************************************/
 /* Nav                                                                           */
